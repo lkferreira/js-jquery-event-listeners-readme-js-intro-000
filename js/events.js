@@ -10,7 +10,7 @@ function frameIt() {
 });
 }
 
-funtion pressIt() {
+function pressIt() {
   $('form').on('keydown', function(key) {
   if(key.which == G){
       alert('G was pressed');
